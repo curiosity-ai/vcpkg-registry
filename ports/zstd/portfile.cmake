@@ -22,6 +22,7 @@ vcpkg_cmake_configure(
         -DZSTD_BUILD_TESTS=0
         -DZSTD_BUILD_CONTRIB=0
         -DZSTD_MULTITHREAD_SUPPORT=1
+        -DSTATIC_BMI2=0
 )
 
 vcpkg_cmake_install()
