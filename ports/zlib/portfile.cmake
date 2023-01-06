@@ -1,4 +1,4 @@
-set(VERSION 1.2.12)
+set(VERSION 1.2.13)
 
 vcpkg_download_distfile(ARCHIVE_FILE
     URLS "https://www.zlib.net/zlib-${VERSION}.tar.gz"
